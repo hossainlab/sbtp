@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2dd4bf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0f172a" rx="90"/>
+
+  <!-- Scale factor: 512/24 = 21.33 -->
+  <!-- DNA Logo - exact copy from navbar, scaled up -->
+
+  <!-- Main crossing strands -->
+  <path d="M 85 85 C 85 85 149 128 256 256 S 427 427 427 427"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"
+        fill="none"/>
+
+  <path d="M 427 85 C 427 85 363 128 256 256 S 85 427 85 427"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"
+        fill="none"/>
+
+  <!-- Base pairs (horizontal connections) -->
+  <line x1="139" y1="139" x2="85" y2="139"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="373" y1="139" x2="427" y2="139"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="139" y1="373" x2="85" y2="373"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="373" y1="373" x2="427" y2="373"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="192" y1="192" x2="160" y2="192"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="352" y1="192" x2="320" y2="192"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="192" y1="320" x2="160" y2="320"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+
+  <line x1="352" y1="320" x2="320" y2="320"
+        stroke="url(#grad)"
+        stroke-width="35"
+        stroke-linecap="round"/>
+</svg>
