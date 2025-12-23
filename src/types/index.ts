@@ -39,3 +39,16 @@ export interface FAQ {
   question: string;
   answer: string;
 }
+
+export interface Publication {
+  id: string;
+  title: string;
+  authors: string;
+  journal: string;
+  year: number;
+  volume?: string;
+  pages?: string;
+  doi: string;
+  link: string;
+  image?: string;
+}

@@ -1,5 +1,5 @@
 
-import { Track, Module, Instructor, FAQ } from '../types';
+import { Track, Module, Instructor, FAQ, Publication } from '../types';
 
 export const PROGRAM_NAME = "Specialized Bioinformatics Training Program (SBTP)";
 export const ORGANIZATION = "DeepBio Ltd.";
@@ -201,5 +201,43 @@ export const FAQS: FAQ[] = [
     id: 10,
     question: "What career opportunities will this program open up?",
     answer: "SBTP prepares you for M.Sc./PhD programs in Computational Biology, bioinformatics research positions, data analysis roles in biotech/pharma companies, and provides mentorship for international fellowships. You'll also gain experience in scientific publication."
+  }
+];
+export const PUBLICATIONS = [
+  {
+    id: "pub-1",
+    title: "Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors",
+    authors: "Ahmed, M. Z., Billah, M. M., Ferdous, J., & Hossain, M. J.",
+    journal: "Scientific Reports",
+    year: 2025,
+    volume: "15",
+    pages: "14405",
+    doi: "10.1038/s41598-025-88339-z",
+    link: "https://doi.org/10.1038/s41598-025-88339-z",
+    image: "/images/papers/cct5.jpg",
+  },
+  {
+    id: "pub-2",
+    title: "Comprehensive bioinformatics analysis reveals prognostic significance and immunological roles of WNT gene family in breast cancer",
+    authors: "Fariha, F. T. J., Fuad, M., Saha, C. S., Hossen, S., & Hossain, M. J.",
+    journal: "Scientific Reports",
+    year: 2025,
+    volume: "15",
+    pages: "34490",
+    doi: "10.1038/s41598-025-13315-6",
+    link: "https://doi.org/10.1038/s41598-025-13315-6",
+    image: "/images/papers/wnt.jpg",
+  },
+  {
+    id: "pub-3",
+    title: "A meta-analysis of public RNA-Seq data identifies conserved stress responses in rainbow trout",
+    authors: "Bari, S. M., Fuad, M., & Hossain, M. J.",
+    journal: "BMC Genomics",
+    year: 2025,
+    volume: "26",
+    pages: "999",
+    doi: "10.1186/s12864-025-12127-2",
+    link: "https://doi.org/10.1186/s12864-025-12127-2",
+    image: "/images/papers/rnaseq-meta.jpg",
   }
 ];

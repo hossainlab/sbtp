@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import TrackSection from './sections/TrackSection';
 import Projects from './sections/Projects';
+import Publications from './sections/Publications';
 import InstructorSection from './sections/InstructorSection';
 import Curriculum from './sections/Curriculum';
 import Eligibility from './sections/Eligibility';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       <BioStreamAnimation />
       <TrackSection />
       <Projects />
+      <Publications />
       <Benefits />
       <Curriculum />
       <InstructorSection />

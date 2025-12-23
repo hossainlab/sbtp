@@ -65,6 +65,7 @@ const Footer: React.FC = () => {
             <div className="grid grid-cols-2 gap-4 text-sm text-slate-400">
               <a href="#tracks" className="hover:text-white transition-colors">Research Areas</a>
               <a href="#projects" className="hover:text-white transition-colors">Projects</a>
+              <a href="#publications" className="hover:text-white transition-colors">Publications</a>
               <a href="#curriculum" className="hover:text-white transition-colors">Training Modules</a>
               <a href="#eligibility" className="hover:text-white transition-colors">Eligibility</a>
               <a href="#benefits" className="hover:text-white transition-colors">Assistantships</a>
