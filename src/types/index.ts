@@ -52,3 +52,10 @@ export interface Publication {
   link: string;
   image?: string;
 }
+
+export interface Management {
+  id: string;
+  name: string;
+  role: string;
+  image: string;
+}

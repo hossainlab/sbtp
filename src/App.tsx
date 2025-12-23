@@ -7,10 +7,12 @@ import TrackSection from './sections/TrackSection';
 import Projects from './sections/Projects';
 import Publications from './sections/Publications';
 import InstructorSection from './sections/InstructorSection';
+import ManagementSection from './sections/ManagementSection';
 import Curriculum from './sections/Curriculum';
 import Eligibility from './sections/Eligibility';
 import Pricing from './sections/Pricing';
 import Benefits from './sections/Benefits';
+import ResearchAssistant from './sections/ResearchAssistant';
 import FAQ from './sections/FAQ';
 
 const App: React.FC = () => {
@@ -23,8 +25,10 @@ const App: React.FC = () => {
       <Projects />
       <Publications />
       <Benefits />
+      <ResearchAssistant />
       <Curriculum />
       <InstructorSection />
+      <ManagementSection />
       <Eligibility />
       <FAQ />
       <Pricing />

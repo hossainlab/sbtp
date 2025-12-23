@@ -1,5 +1,5 @@
 
-import { Track, Module, Instructor, FAQ, Publication } from '../types';
+import { Track, Module, Instructor, FAQ, Publication, Management } from '../types';
 
 export const PROGRAM_NAME = "Specialized Bioinformatics Training Program (SBTP)";
 export const ORGANIZATION = "DeepBio Ltd.";
@@ -130,6 +130,57 @@ export const INSTRUCTORS: Instructor[] = [
     image: "/images/instructors/fuad.jpeg",
     tags: ["Pipelines", "HealthTech"],
     linkedin: "https://www.linkedin.com/in/muntasim-fuad/"
+  },
+  {
+    id: "inst-billah",
+    name: "Md. Mohtasim Billah",
+    role: "Research Assistant, Big Bioinformatics Lab, CHIRAL",
+    specialization: "Computational Tools",
+    bio: "Mr. Billah is a Research Assistant at Big Bioinformatics Lab, contributing to bioinformatics research and the development of computational tools for healthcare.",
+    image: "/images/instructors/rifat.png",
+    tags: ["Computational Tools", "Healthcare"],
+    linkedin: "https://www.linkedin.com/in/md-mohtasim-billah/"
+  },
+  {
+    id: "inst-sajjad",
+    name: "Sajjad Hossain",
+    role: "Research Assistant, Big Bioinformatics Lab, CHIRAL",
+    specialization: "Innovative Solutions",
+    bio: "Mr. Hossain is a Research Assistant at Big Bioinformatics Lab, focusing on bioinformatics research and the development of innovative solutions in healthcare.",
+    image: "/images/instructors/sajjad.jpg",
+    tags: ["Innovation", "Healthcare Solutions"],
+    linkedin: "https://www.linkedin.com/in/sajjad-hossen-50a34b2b6/"
+  },
+  {
+    id: "inst-wahidul",
+    name: "Md. Wahidul Islam",
+    role: "Group Leader, Wet Lab, CHIRAL",
+    specialization: "Microbial Genomics",
+    bio: "Mr. Islam is a microbiologist at DeepBio Limited, specializing in microbial genomics and its applications in healthcare.",
+    image: "/images/instructors/wahidul.jpg",
+    tags: ["Microbiology", "Genomics", "Wet Lab"],
+    linkedin: "https://www.linkedin.com/in/islammw/"
+  }
+];
+
+export const MANAGEMENT: Management[] = [
+  {
+    id: "mgmt-nishat",
+    name: "Nishat Mim",
+    role: "Program Coordinator",
+    image: "/images/management/nishat.jpg"
+  },
+  {
+    id: "mgmt-tajrian",
+    name: "Tajrian Rahma",
+    role: "Finance Manager",
+    image: "/images/management/tajrian.jpg"
+  },
+  {
+    id: "mgmt-najnin",
+    name: "Najnin Suktara",
+    role: "Academic Operations Manager",
+    image: "/images/management/suktara.jpg"
   }
 ];
 
