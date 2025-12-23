@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           </a>
           <div className="text-left">
             <p className="text-sm font-semibold text-slate-300">Discount Alert 🏷️</p>
-            <p className="text-blue-400 font-bold">30% OFF till Dec 31</p>
+            <p className="text-blue-400 font-bold">30% OFF till Jan 10, 2026</p>
           </div>
         </div>
 

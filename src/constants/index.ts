@@ -170,7 +170,7 @@ export const FAQS: FAQ[] = [
   {
     id: 4,
     question: "How much does the program cost?",
-    answer: "The standard fee is 10,200 BDT (99 USD). Early bird discount of 30% is available for enrollment before December 31, bringing the cost down to 7,140 BDT (69 USD). Limited to 15 slots per track."
+    answer: "The standard fee is 10,200 BDT (99 USD). Early bird discount of 30% is available for enrollment before January 10, 2026, bringing the cost down to 7,140 BDT (69 USD). Limited to 15 slots per track."
   },
   {
     id: 5,

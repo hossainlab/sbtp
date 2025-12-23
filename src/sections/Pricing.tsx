@@ -24,7 +24,7 @@ const Pricing: React.FC = () => {
 
           <div className="p-8 bg-blue-600/10 rounded-3xl border border-blue-500/20 mb-10 group hover:bg-blue-600/20 transition-all duration-300">
             <p className="text-blue-400 font-black text-xl mb-1 uppercase tracking-tighter italic">30% Discount Opportunity</p>
-            <p className="text-slate-300 text-sm mb-4">Enroll by <strong className="text-white">December 31</strong> for just</p>
+            <p className="text-slate-300 text-sm mb-4">Enroll by <strong className="text-white">January 10, 2026</strong> for just</p>
             <div className="text-5xl font-black text-white mb-2">~7,140 BDT</div>
             <p className="text-blue-400 font-bold text-xs uppercase tracking-widest">or $69 USD</p>
           </div>
@@ -35,7 +35,7 @@ const Pricing: React.FC = () => {
           >
             Enroll Now
           </a>
-          <p className="mt-6 text-xs text-slate-500">Application Deadline: Dec 31, 2025</p>
+          <p className="mt-6 text-xs text-slate-500">Application Deadline: Jan 12, 2026</p>
         </div>
       </div>
     </section>
