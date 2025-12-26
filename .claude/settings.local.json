@@ -3,7 +3,11 @@
     "allow": [
       "Bash(mkdir:*)",
       "Bash(mv:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash([ -s \"$HOME/.nvm/nvm.sh\" ])",
+      "Bash(lsof:*)",
+      "Bash(curl:*)"
     ]
   }
 }
