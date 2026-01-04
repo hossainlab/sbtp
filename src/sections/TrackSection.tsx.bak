@@ -6,12 +6,7 @@ const TrackSection: React.FC = () => {
     <section id="tracks" className="py-24 bg-slate-900/50">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-4 text-white">Choose Your <span className="text-blue-400">Specialization</span></h2>
-        <p className="text-slate-400 max-w-2xl mx-auto mb-6">Tailored tracks designed for real-world research challenges.</p>
-        <div className="glass rounded-2xl p-6 max-w-3xl mx-auto mb-16 border border-green-500/30">
-          <p className="text-slate-300 text-sm md:text-base leading-relaxed">
-            <strong className="text-green-400">After completing the 16-module general training</strong>, best performers will choose one of these specializations for their 1.5-month project work. You'll apply the technical expertise you mastered in the general training to real-world research in your chosen field.
-          </p>
-        </div>
+        <p className="text-slate-400 max-w-2xl mx-auto mb-16">Tailored tracks designed for real-world research challenges.</p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {TRACKS.map((track) => (

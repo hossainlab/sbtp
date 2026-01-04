@@ -14,7 +14,6 @@ import Pricing from './sections/Pricing';
 import Benefits from './sections/Benefits';
 import ResearchAssistant from './sections/ResearchAssistant';
 import FAQ from './sections/FAQ';
-import ProgramFlow from './sections/ProgramFlow';
 
 const App: React.FC = () => {
   return (
@@ -22,7 +21,6 @@ const App: React.FC = () => {
       <Navbar />
       <Hero />
       <BioStreamAnimation />
-      <ProgramFlow />
       <TrackSection />
       <Projects />
       <Publications />
