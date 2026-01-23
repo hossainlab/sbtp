@@ -21,7 +21,7 @@ const Curriculum: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3 glass px-4 py-3 rounded-xl border border-white/5">
                 <Clock className="w-5 h-5 text-blue-400" />
-                <span className="text-sm font-medium text-slate-200">9 PM - 11 PM (BST) Sessions</span>
+                <span className="text-sm font-medium text-slate-200">2 PM - 4 PM (BST) Sessions</span>
               </div>
               <div className="flex items-center space-x-3 glass px-4 py-3 rounded-xl border border-white/5">
                 <Calendar className="w-5 h-5 text-blue-400" />

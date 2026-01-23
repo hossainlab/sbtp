@@ -17,7 +17,7 @@ export const TRACKS: Track[] = [
     project: {
       name: "Tumor Microenvironment Heterogeneity in Triple-Negative Breast Cancer",
       focus: "Investigating novel therapeutic targets and understanding cellular mechanisms",
-      startDate: "January 17, 2026",
+      startDate: "February 25, 2026",
       endDate: "February 28, 2026"
     },
     icon: "🔬",
@@ -35,7 +35,7 @@ export const TRACKS: Track[] = [
     project: {
       name: "Exploring molecular pathways of brain function and identifying biomarkers",
       focus: "Exploring molecular pathways of brain function and identifying biomarkers",
-      startDate: "January 17, 2026",
+      startDate: "February 25, 2026",
       endDate: "February 28, 2026"
     },
     icon: "🧠",
@@ -53,7 +53,7 @@ export const TRACKS: Track[] = [
     project: {
       name: "Dual Single-Cell Transcriptomics of Host-Pathogen Interactions in Bacterial Infections",
       focus: "Studying host-path pathogen interactions for diagnosis, treatment, and prevention",
-      startDate: "January 17, 2026",
+      startDate: "February 25, 2026",
       endDate: "February 28, 2026"
     },
     icon: "🦠",
@@ -71,7 +71,7 @@ export const TRACKS: Track[] = [
     project: {
       name: "Pan-Crop Abiotic Stress Response: Multi-Omic Meta-Analysis",
       focus: "Applying computational approaches to crop genomics and plant biology",
-      startDate: "January 17, 2026",
+      startDate: "February 25, 2026",
       endDate: "February 28, 2026"
     },
     icon: "🌾",
@@ -197,7 +197,7 @@ export const KEY_STATS = [
   { label: "Duration", value: "60 Days" },
   { label: "Total Slots", value: "60 Seats" },
   { label: "Format", value: "Online Hands-on" },
-  { label: "Time", value: "9-11 PM (BST)" }
+  { label: "Time", value: "2-4 PM (BST)" }
 ];
 
 export const APPLICATION_URL = "https://forms.gle/3TRAdJRZpV8kXPsn9";
@@ -216,12 +216,12 @@ export const FAQS: FAQ[] = [
   {
     id: 3,
     question: "What is the program duration and schedule?",
-    answer: "SBTP is a 60-day intensive online program with live sessions from 9 PM to 11 PM (BST). The program includes 16 comprehensive modules covering NGS technology, data analysis, AI applications, and scientific writing."
+    answer: "SBTP is a 60-day intensive online program with live sessions from 2 PM to 4 PM (BST). The program includes 16 comprehensive modules covering NGS technology, data analysis, AI applications, and scientific writing."
   },
   {
     id: 4,
     question: "How much does the program cost?",
-    answer: "The standard fee is 10,200 BDT (99 USD). Early bird discount of 30% is available for enrollment before January 10, 2026, bringing the cost down to 7,140 BDT (69 USD). Limited to 15 slots per track."
+    answer: "The standard fee is 10,200 BDT (99 USD). Early bird discount of 30% is available for enrollment before February 18, 2026, bringing the cost down to 7,140 BDT (69 USD). Limited to 15 slots per track."
   },
   {
     id: 5,
