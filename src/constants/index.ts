@@ -200,7 +200,7 @@ export const KEY_STATS = [
   { label: "Time", value: "2-4 PM (BST)" }
 ];
 
-export const APPLICATION_URL = "https://forms.gle/3TRAdJRZpV8kXPsn9";
+export const APPLICATION_URL = "https://forms.gle/XkvD5W9h8t2RSkgY8";
 
 export const FAQS: FAQ[] = [
   {
